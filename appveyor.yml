@@ -35,9 +35,7 @@ deploy:
 notifications:
 - provider: Email
   to:
-  - adrianobarb@yahoo.it
   - abdelkrim.bensaid@free.fr
-  - remyruiz@gmail.com
   subject: Download Weather_Plus{{#jobs}}{{#messages}}{{message}}{{/messages}}{{/jobs}}
   message: >-
     <h1>The add-on Weather_Plus{{#jobs}}{{#messages}}{{message}}{{/messages}}{{/jobs}} is ready!</h1>
